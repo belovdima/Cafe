@@ -5,7 +5,11 @@ function Header() {
 
     return (
         <div className="header">
-            hello
+            <div className="header__content">
+                <div className="header__content header__content--writing">
+                    What if..
+                </div>
+            </div>
         </div>
     );
 }

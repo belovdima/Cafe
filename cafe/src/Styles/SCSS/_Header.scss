@@ -1,10 +1,12 @@
+@import "_vars";
+
 .header {
-    position: absolute;
-    z-index: 10;
-    width: 1920px;
-    height: 136px;
-    border: solid black;
-    border-width: 2px;
-    color: blue;
-    background-color: transparent;
+    flex-shrink: 0;
+    background-color: $white-color;
+
+    & .header__content--writing {
+        font-family: RubikBubbles;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
