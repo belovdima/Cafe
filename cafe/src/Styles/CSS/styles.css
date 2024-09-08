@@ -235,12 +235,28 @@ svg * {
 /*  */
 /*  */
 .header {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #f5f5f5;
+  background-color: #2e2e2e;
+  padding-inline: 10px;
 }
-.header .header__content--writing {
-  font-family: RubikBubbles;
-  font-style: normal;
-  font-weight: 400;
+.header .header__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
 }

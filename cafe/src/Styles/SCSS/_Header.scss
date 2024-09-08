@@ -1,12 +1,19 @@
 @import "_vars";
 
 .header {
-    flex-shrink: 0;
-    background-color: $white-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $background1-color;
+    background-color: $accent-color;
+    padding-inline: 10px;
 
-    & .header__content--writing {
-        font-family: RubikBubbles;
-        font-style: normal;
-        font-weight: 400;
+    & .header__socials {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 }
