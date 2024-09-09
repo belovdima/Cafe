@@ -5,7 +5,7 @@ function Menu() {
 
     return (
         <div>
-            
+            menu block
         </div>
     );
 }

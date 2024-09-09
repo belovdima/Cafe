@@ -16,4 +16,12 @@
         justify-content: space-between;
         gap: 20px;
     }
+
+    & .header__logo {
+        color: $background1-color;
+        text-decoration: none;
+    }
 }
+
+// добавить hover'ы
+//разбораться с центрированием щпщ

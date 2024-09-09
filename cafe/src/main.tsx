@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 import Header from './Components/Header'
 import Events from './Components/Events'
 import Gallery from './Components/Gallery'

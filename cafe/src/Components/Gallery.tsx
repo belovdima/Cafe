@@ -5,8 +5,8 @@ function Gallery() {
 
     return (
         <div>
-            
-        </div>
+            gallery block
+        </div>  
     );
 }
 
