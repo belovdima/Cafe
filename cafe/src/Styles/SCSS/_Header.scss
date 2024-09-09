@@ -11,17 +11,62 @@
     background-color: $accent-color;
     padding-inline: 10px;
 
-    & .header__socials {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
+    & .header__open--menu:hover {
+        color: $light-color;
+        transition-duration: $transition;
     }
 
     & .header__logo {
+        position: absolute;
+        left: 50%;
         color: $background1-color;
+        transform: translateX(-50%);
         text-decoration: none;
     }
-}
 
-// добавить hover'ы
-//разбораться с центрированием щпщ
+    & .header__socials {
+        display: flex;
+        justify-content: space-between;
+        color: $background1-color;
+        text-decoration: none;
+        gap: 20px;
+
+        & .socials__instagram--link {
+            color: $background1-color;
+            transition: $transition;
+            text-decoration: none;
+            &:visited {
+                color: $background1-color;
+            }
+            &:hover {
+                color: $light-color;
+            }
+            svg {
+                fill: $background1-color;
+
+                &:hover {
+                    fill: $light-color;
+                }
+            }
+        }
+
+        & .socials__telegram--link {
+            color: $background1-color;
+            transition: $transition;
+            text-decoration: none;
+            &:visited {
+                color: $background1-color;
+            }
+            &:hover {
+                color: $light-color;
+            }
+            svg {
+                fill: $background1-color;
+
+                &:hover {
+                    fill: $light-color;
+                }
+            }
+        }
+    }
+}

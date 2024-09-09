@@ -3,12 +3,11 @@ import "./../Styles/SCSS/_Footer.scss"
 
 function Footer() {
 
-    // const date:number  = Date.prototype.getFullYear()
+    const date:number  = new Date().getFullYear()
 
     return (
         <div className="footer">
-            {/* {date} */}
-            2024
+           © {date}
 
         </div>
     );
@@ -16,4 +15,3 @@ function Footer() {
 
 export default Footer
 
-//разобраться с датой
