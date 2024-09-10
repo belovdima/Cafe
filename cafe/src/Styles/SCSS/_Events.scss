@@ -1,1 +1,21 @@
 @import "_vars";
+
+.events {
+    align-items: center;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    & .img {
+        position: relative;
+        left: 50%;
+        width: 800px;
+        height: 450px;
+        transform: translateX(-50%);
+    }
+
+    .react-multiple-carousel__arrow .react-multiple-carousel__arrow--right {
+        position: absolute !important;
+        display: none !important;
+    }
+}
