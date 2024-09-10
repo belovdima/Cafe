@@ -1,21 +1,31 @@
 @import "_vars";
 
 .events {
+    position: relative;
+    left: 50%;
     align-items: center;
-    height: 450px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 1500px;
+    height: 600;
+    background-color: $black-color;
+    transform: translateX(-50%);
 
     & .img {
         position: relative;
         left: 50%;
-        width: 800px;
-        height: 450px;
+        width: 1500px;
+        height: 600px;
         transform: translateX(-50%);
+        mask-image: linear-gradient(
+            to right,
+            transparent,
+            black 10%,
+            black 90%,
+            transparent
+        );
+        object-fit: cover;
     }
+}
 
-    .react-multiple-carousel__arrow .react-multiple-carousel__arrow--right {
-        position: absolute !important;
-        display: none !important;
-    }
+.events__background {
+    background-color: $black-color;
 }

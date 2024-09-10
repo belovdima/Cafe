@@ -24,23 +24,29 @@ function Events() {
       };
 
     return (
-        <div className="events">
-            <Carousel   responsive={responsive}
-                        slidesToSlide={1}
-                        draggable={false}
-                        swipeable={true}
-                        infinite={true}
-                        keyBoardControl={false}
-                        autoPlay={true}
-                        autoPlaySpeed={4000}
-                        transitionDuration={500}
-                        shouldResetAutoplay={true}
-                        >
-                <div className="img img--1"><img src="~/../../pics/fish.jpg" alt="fish" width={800} height={450} /></div>
-                <div className="img img--2"><img src="~/../../pics/tyler.jpg" alt="tyler" width={800} height={450}/></div>
-                <div className="img img--3"><img src="~/../../pics/minecraft.jpg" alt="minecraft" width={800} height={450}/></div>
-                <div className="img img--4"><img src="~/../../pics/background-red.jpg" alt="background" width={800} height={450}/></div>
-            </Carousel>
+        <div className="events__background">
+            <div className="events">
+                <Carousel   responsive={responsive}
+                            slidesToSlide={1}
+                            draggable={false}
+                            swipeable={true}
+                            infinite={true}
+                            keyBoardControl={false}
+                            autoPlay={true}
+                            autoPlaySpeed={4000}
+                            transitionDuration={500}
+                            shouldResetAutoplay={true}
+                            >
+                    <div className="img img--1"><img src="~/../../pics/fish.jpg" alt="fish" width={1500} height={600} /></div>
+                    <div className="img img--2"><img src="~/../../pics/tyler.jpg" alt="tyler" width={1500} height={600}/></div>
+                    <div className="img img--3"><img src="~/../../pics/minecraft.jpg" alt="minecraft" width={1500} height={600}/></div>
+                    <div className="img img--4"><img src="~/../../pics/background-red.jpg" alt="background" width={1500} height={600}/></div>
+                    <div className="img img--4"><img src="~/../../pics/plat.jpg" alt="plat" width={1500} height={600}/></div>
+                    <div className="img img--1"><img src="~/../../pics/shaw.jpg" alt="shaw" width={1500} height={600} /></div>
+                    <div className="img img--1"><img src="~/../../pics/shark.jpg" alt="fish" width={1500} height={600} /></div>
+                    <div className="img img--1"><img src="~/../../pics/chicken.jpg" alt="fish" width={1500} height={600} /></div>
+                </Carousel>
+            </div>
         </div>
     );
 }

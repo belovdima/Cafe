@@ -1,1 +1,16 @@
 @import "_vars";
+
+.menu {
+    height: 1500px;
+    color: $background1-color;
+    background-color: $accent-color;
+    & .menu__writing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $background1-color;
+        background-color: $accent-color;
+        font-family: RubikBubbles;
+        font-size: 250px;
+    }
+}

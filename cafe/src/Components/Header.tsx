@@ -11,7 +11,7 @@ function Header() {
                 </svg>
             </div>
             
-            <a className="header__logo" href="./">IF</a>
+            <a className="header__logo" href="./"><img src="~/../../public/pics/if-logo.png" alt="" width={34} height={34}/></a>
             
             <div className="header__socials">
 

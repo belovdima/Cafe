@@ -4,8 +4,8 @@ import "./../Styles/SCSS/_About.scss"
 function About() {
 
     return (
-        <div>
-            about block
+        <div className="about">
+            <div className="about__header">О нас</div>
         </div>
     );
 }

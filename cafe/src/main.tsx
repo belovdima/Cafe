@@ -12,8 +12,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header />
     <Events />
-    <Gallery />
     <About />
+    <Gallery />
     <Menu />
     <Footer />
   </StrictMode>,

@@ -9,7 +9,7 @@
     padding-bottom: 15px;
     color: $background1-color;
     background-color: $accent-color;
-    padding-inline: 10px;
+    padding-inline: 350px;
 
     & .header__open--menu:hover {
         color: $light-color;
@@ -19,9 +19,12 @@
     & .header__logo {
         position: absolute;
         left: 50%;
+        border-radius: 20px;
         color: $background1-color;
         transform: translateX(-50%);
-        text-decoration: none;
+        img {
+            border-radius: 5px;
+        }
     }
 
     & .header__socials {

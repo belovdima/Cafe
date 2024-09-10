@@ -1,1 +1,12 @@
 @import "_vars";
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: $background1-color;
+    background-color: $accent-color;
+    font-family: RubikGlitchPop;
+    font-size: 250px;
+}
