@@ -315,3 +315,124 @@ svg * {
 .header .header__socials .socials__telegram--link svg:hover {
   fill: #848a9a;
 }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  color: #f5f5f5;
+  background-color: #2e2e2e;
+  font-family: RubikGlitchPop;
+  font-size: 250px;
+}
+
+.events {
+  position: relative;
+  left: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1500px;
+  height: 600;
+  background-color: #000000;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.events .img {
+  position: relative;
+  left: 50%;
+  width: 1500px;
+  height: 600px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(10%, black), color-stop(90%, black), to(transparent));
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+          mask-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(10%, black), color-stop(90%, black), to(transparent));
+          mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.events__background {
+  background-color: #000000;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 75px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #f5f5f5;
+  background-color: #2e2e2e;
+  padding-inline: 10px;
+}
+
+.gallery {
+  position: relative;
+  left: 50%;
+  width: 925px;
+  height: 300px;
+  height: 300px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.gallery .img {
+  position: relative;
+  left: 50%;
+  width: 462.5px;
+  height: 300px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.menu {
+  height: 1500px;
+  color: #f5f5f5;
+  background-color: #2e2e2e;
+}
+.menu .menu__writing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f5f5f5;
+  background-color: #2e2e2e;
+  font-family: RubikBubbles;
+  font-size: 250px;
+}
+.menu .maffin__writing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 100px;
+}

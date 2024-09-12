@@ -13,4 +13,11 @@
         font-family: RubikBubbles;
         font-size: 250px;
     }
+
+    & .maffin__writing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 100px;
+    }
 }

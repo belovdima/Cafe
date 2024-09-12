@@ -7,15 +7,15 @@ function Menu() {
         <div className="menu">
             <div className="menu__writing">Меню</div>
             <div className="menu__food">
+            <div className="maffin__writing">Маффины</div>
                 <div className="menu__food--maffins">
-                    Маффины
                     <div className="maffin__publika-gaultier">
                         <div className="food__inner">
                             <div className="food__inner--name">«ПУБЛИКА ГОЛЬТЬЕ» <img src="~/../../public/icons/publika.png" alt="" width={30} height={30}/></div>
                             <div className="food__inner--ingredients"></div>
                         </div>
                         <div className="food__price">666</div>
-                        <div className="food__photo"></div>
+                        <div className="food__photo"><img src="~/../../public/pics/maffin--EasyFresh.jpg" alt="" /></div>
                     </div>
                     <div className="maffin__cream-soda"></div>
                     <div className="maffin__stvol"></div>
